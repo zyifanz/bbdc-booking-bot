@@ -18,7 +18,8 @@ def job():
 
 if __name__ == "__main__":
     job()  # test
-    schedule.every(interval).minutes.do(job)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    # todo: make it irregular
+    # schedule.every(interval).minutes.do(job)
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)

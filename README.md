@@ -15,20 +15,20 @@ Program help to check and book the available slots in BBDC (Bukit Batok Driving 
 
 ## Clone the repo
 ```sh
-$ git clone https://github.com/lolkabash/bbdc-booking-bot.git
+$ git clone git@github.com:zyifanz/bbdc-booking-bot.git
 $ cd bbdc-booking-bot
 ```
 ## Create virtual environment and source the environment
 ```sh
 # create virtual environment
-$ python3 -m venv env
+$ python3 -m venv .venv
 # activate the environment
-$ source env/bin/activate
+$ source .venv/bin/activate
 ```
 
 ## Install dependencies
 ```sh
-$ pip install -r requirement.txt
+$ pip install -r requirements.txt
 ```
 
 ## Create your telegram bot

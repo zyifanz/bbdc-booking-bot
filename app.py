@@ -199,6 +199,7 @@ class Session:
             # Sorting
             keylist = list(self.slots.keys())
             keylist.sort()
+            logging.info("dates: " + keylist)
             earliestDate = keylist[0]
             chosenSlot = self.slots[earliestDate][0]
             if want:
